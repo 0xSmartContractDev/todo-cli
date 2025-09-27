@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug todo-cli",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/target/debug/todo-cli",
+      "args": ["--file", "/tmp/todos.json", "list"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
